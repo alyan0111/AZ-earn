@@ -1,0 +1,91 @@
+
+.link{
+   color: black;
+    transition: color 0.2s ease-in-out;
+}
+
+.link:hover{
+    color: chocolate;
+}
+
+.img-container {
+    perspective: 1000px;
+  }
+  
+  .img {
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .img:hover {
+    transform: rotateY(360deg);
+  }
+
+  .footer-bg{
+    background-color: #20203f;
+  }
+
+  .f-link{
+    color: #c3d5e5;
+    transition: color 0.2s ease-in-out;
+}
+    
+  
+
+  .f-link:hover{
+    color: chocolate;
+    text-decoration: underline;
+
+  }
+
+  .icon{
+    border:2px solid #c3d5e5;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    transition: background-color 0.2s ease-in-out;
+
+  }
+
+  .icon:hover{
+    background-color: chocolate;
+    border: none;
+}
+
+  .icon-inner{
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    
+  }
+  .icon:hover .icon-inner{
+    transform: rotateY(360deg);
+  }
+
+  .tabs{
+    color: #20203f;
+    border:'none';
+    transition: color 0.2s ease-in-out;
+    margin-left: 2%;
+    padding: 2%;
+    
+    
+  }
+
+  .tabs:hover{
+    text-decoration: none;
+    color: chocolate;
+    border-bottom:2px solid chocolate;
+  }
+  
+
+
+  .c-link{
+    color:black;
+    font-weight: bold;
+  }
+
+  .card:hover .c-link{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+  }
